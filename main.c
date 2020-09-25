@@ -77,7 +77,8 @@ int main() {
     time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
     printf("Run time of for loop was %f\n",time_spent);
 
-
     free(arr);
+    printf("Press Any Key to Exit\n");
+    getchar();
     return 0;
 }
