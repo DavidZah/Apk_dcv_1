@@ -78,6 +78,8 @@ int main() {
     printf("Run time of for loop was %f\n",time_spent);
 
     free(arr);
+    int   ch;
+    while ((ch = getchar()) != '\n' && ch != EOF);
     printf("Press Any Key to Exit\n");
     getchar();
     return 0;
